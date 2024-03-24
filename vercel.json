@@ -1,0 +1,16 @@
+{
+  "github": {
+    "enabled": false  
+  },
+  "build": {
+    "env": {
+      "DOCKER_BUILDKIT": 1
+    }
+  },
+  "builds": [
+    {
+      "use": "@vercel/static-build",
+      "src": "package.json"
+    }
+  ]
+}
